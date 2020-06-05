@@ -4,7 +4,7 @@ body {
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+
   .showcase::after {
     content: '';
     height: 100vh;
@@ -14,8 +14,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: brightness(0.5) blur(10px);
+    -webkit-filter: brightness(0.5) blur(10px);
     transition: all 1000ms;
   }
   
